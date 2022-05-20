@@ -131,10 +131,30 @@ img {
 
  @media all and (max-width: 768px) {
     .container {
-        max-width: 768px;
         width: 100vw;
         margin: 0 auto;
         padding: 0 20px;
     }
     
+ }
+
+ @media all and (max-width: 480px) {
+     
+    .row{
+        flex-direction: column;
+    }
+    
+    .card{
+        width: 85vw;
+        padding-bottom: 40px;
+    }
+
+    .col-left{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .col-right{
+        width: 480px;
+        margin: 0 auto;
+    }
  }
